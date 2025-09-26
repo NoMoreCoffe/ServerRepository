@@ -1,0 +1,14 @@
+name: First workflow
+
+on: [push]
+
+jobs: 
+  printText-job:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Run Python Script
+        run: python hello.py 
