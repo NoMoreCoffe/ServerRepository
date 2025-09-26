@@ -11,6 +11,6 @@ if (s = "qwerty"){
 else{
   std::cout << "Password is INCORRECT!!!" << std::endl;
 }
-   return 0: 
+   return 0; 
 
 }
