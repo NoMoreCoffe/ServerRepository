@@ -5,7 +5,7 @@
 int main(){
 const char* secret = std::getenv("PASSWORD");
 std::string s(secret) ;
-if (s = "qwerty"){
+if (s == "qwerty"){
   std::cout << "Password is Correct!!!" << std::endl;
 }
 else{
